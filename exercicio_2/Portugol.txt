@@ -1,0 +1,36 @@
+ 
+ cadastro{
+
+     
+        
+            logico check = VERDADEIRO
+            caractere nome = ""
+            caractere senha = ""
+    
+            função inicio(){
+            enquanto (check == VERDADEIRO)
+            {
+                escreva ("insira seu nome")
+                leia (nome)
+
+                escreva ("Insira sua senha")
+                leia (senha)
+                
+
+                se (nome == senha)
+                {
+                   escreva ("Cadastro inválido: Nome igual a senha , tente novamente")
+                }
+                senão
+                {
+                  escreva ("cadastro efetuado");
+                    check = FALSO;
+                }
+            } 
+     }
+     
+
+
+ }
+ 
+ 

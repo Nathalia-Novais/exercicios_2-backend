@@ -1,0 +1,16 @@
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.csprojAssemblyReference.cache
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.AssemblyInfo.cs
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.exe
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.deps.json
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.runtimeconfig.json
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.runtimeconfig.dev.json
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.dll
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\ref\terceiro.dll
+C:\Users\User1\Desktop\Entregas2\terceiro\bin\Debug\net5.0\terceiro.pdb
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.dll
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\ref\terceiro.dll
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.pdb
+C:\Users\User1\Desktop\Entregas2\terceiro\obj\Debug\net5.0\terceiro.genruntimeconfig.cache

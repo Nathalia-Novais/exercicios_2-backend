@@ -1,0 +1,26 @@
+
+      nota{
+
+            Logico respostaCorreta = FALSO;
+            inteiro = nota
+
+
+            fução inicio{
+                enquanto (respostaCorreta == FALSO)
+            {
+                escreva ("Por favor, classifique esse sistema em uma nota de 1 á 10 ")
+                leia (nota)
+
+
+                se (nota >= 1 e nota <= 10) {
+                   escreva ("obrigada pela sua nota")
+                    respostaCorreta = verdadeira;
+                }
+                senão {
+                  escreva("uma nota de 1 á 10 por favor")
+                }
+                 } 
+            }
+            
+      }    
+          

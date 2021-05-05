@@ -1,0 +1,95 @@
+ cadastro {
+         
+         
+            logico check = FALSO
+            caracter nome = ""
+            inteiro idade = 0
+            real salario = 0
+            caracter estadocivil = ""
+            caracter salario0 =""
+
+        função inicio (){
+        enquanto ( check == FALSO)
+         {
+           escreva ("Insira seu nome")
+           leia (nome)
+
+           se (nome == "")
+          {
+           escreva ("Nome inválido"); }
+          
+           senão
+           {
+             escreva ("Nome válido")
+             check = VERDADEIRO  }
+         }
+
+          
+            //idade
+
+              enquanto (check == VERDADEIRO)
+            
+             {
+              escreva ("Qual sua idade?")
+              leia (idade)
+
+              se (idade >150)
+              {
+                escreva("idade inválida") }
+             
+              senão
+              {
+                 escreva ("idade válida")
+                 check = FALSO }      
+             }
+
+           
+             //salario
+
+
+             enquanto (check == FALSO)
+             {
+                escreva ("Qual é o seu salário?");
+                leia (salario0)
+
+                se (salario0 == "")
+                {
+                      salario0 = "0"
+                }
+
+               salario = real (salario0)
+            
+              se (salario <= 0)
+              {
+               escreva ("O salário está invalido , coloque um número maior que zero")
+               }
+              senão {
+                  escreva ("salário válido")
+                  check = VERDADEIRO
+                 }      
+             }
+
+
+           //estado civil
+
+                enquanto ( check == VERDADEIRO)
+         {
+           escreva ("Qual é o seu estado civil? " );
+           escreva ("'S' (solteiro(a))  'C'(casado(a))  'V' (viuvo(a))  'D' (divorciado(a)) "); 
+           leia (estadocivil)
+
+           se (estadocivil == "S" ou estadocivil == "C" ou estadocivil == "V" ou estadocivil == "D" )
+          {
+          escreva ("estado civil válido")
+          check = FALSO
+           }
+           senão
+           {
+          escreva ("estado civíl inválido")
+
+          }
+         }
+}
+         
+ }
+           
