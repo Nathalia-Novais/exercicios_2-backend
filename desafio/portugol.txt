@@ -1,0 +1,18 @@
+ 
+ 
+ Fibonacci {
+      
+             inteiro anterior = 0
+             inteiro proximo = 1
+             inteiros contador
+
+            para ( variavel i de 1 a 14 passo 1 ) faça
+            {
+                 contador = anterior + proximo
+                 anterior = proximo
+                 proximo = contador
+                 escreava (contador)
+            }
+ }
+ 
+ 

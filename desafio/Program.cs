@@ -6,16 +6,17 @@ namespace desafio
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Fibonacci");
 
-            int anterior = 0;
-            int proximo = 1;
-            int fibonacci;
+             int anterior = 0;
+             int proximo = 1;
+             int contador;
 
-            for (int i = 0; i < 14; i++)
+            for (var i = 0; i < 14; i ++)
             {
-                fibonacci = proximo + anterior;
-                
+                 contador = anterior + proximo;
+                 anterior = proximo;
+                 proximo = contador;
+                 Console.WriteLine(contador);
             }
         }
     }

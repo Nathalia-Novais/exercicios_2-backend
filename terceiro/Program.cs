@@ -21,12 +21,16 @@ namespace terceiro
 
            if (nome == "")
           {
+          Console.ForegroundColor = ConsoleColor.Red;
           Console.WriteLine("Nome inválido");
+          Console.ResetColor(); 
            }
            else
            {
+             Console.ForegroundColor = ConsoleColor.Green;
               Console.WriteLine("Nome válido");
-               check = true;
+              check = true;
+              Console.ResetColor(); 
 
           }
          }
@@ -40,12 +44,16 @@ namespace terceiro
 
               if (idade >150)
               {
-                Console.WriteLine("idade inválida");
+                 Console.ForegroundColor = ConsoleColor.Red; 
+                 Console.WriteLine("idade inválida");
+                 Console.ResetColor(); 
                }
               else
               {
-                  Console.WriteLine("idade válida");
+                 Console.ForegroundColor = ConsoleColor.Green;
+                 Console.WriteLine("idade válida");
                  check = false; 
+                 Console.ResetColor(); 
                  }      
              }
 
@@ -62,16 +70,20 @@ namespace terceiro
                     salario0 = "0";
                 }
 
-               salario = float.Parse(salario0);
+             salario = float.Parse(salario0);
             
               if (salario <= 0)
               {
-                Console.WriteLine("O salário está invalido , coloque um número maior que zero");
+                 Console.ForegroundColor = ConsoleColor.Red;
+                 Console.WriteLine("O salário está invalido , coloque um número maior que zero");
+                 Console.ResetColor(); 
                }
               else
               {
-                  Console.WriteLine("salário válido");
+                 Console.ForegroundColor = ConsoleColor.Green;
+                 Console.WriteLine("salário válido");
                  check = true; 
+                 Console.ResetColor(); 
                  }      
              }
 
@@ -86,13 +98,21 @@ namespace terceiro
 
            if (estadocivil == "S" || estadocivil == "C" || estadocivil == "V" || estadocivil == "D" )
           {
-          Console.WriteLine("estado civil válido");
-          check = false;
+            Console.ForegroundColor = ConsoleColor.Green;    
+            Console.WriteLine("estado civil válido");
+            check = false;
+            Console.ResetColor(); 
            }
            else
            {
+             Console.ForegroundColor = ConsoleColor.Red;
               Console.WriteLine("estado civíl inválido");
-   }
+              Console.ResetColor(); 
+              }
+
+           
+           Console.WriteLine("Dados cadastrados \n" + "nome:" + nome + "\nidade:" + idade + "\nsalário:" + salario + "\nestado civil:" + estadocivil);
+      
          }
            
 
